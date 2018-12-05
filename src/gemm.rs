@@ -6,8 +6,8 @@
 // option. This file may not be copied, modified, or distributed
 // except according to those terms.
 
-use std::cmp::min;
-use std::mem::size_of;
+use core::cmp::min;
+use core::mem::size_of;
 
 use util::range_chunk;
 use util::round_up_to;
