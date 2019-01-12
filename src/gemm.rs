@@ -9,6 +9,8 @@
 use core::cmp::min;
 use core::mem::size_of;
 
+use alloc::vec::Vec;
+
 use util::range_chunk;
 use util::round_up_to;
 

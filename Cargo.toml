@@ -14,18 +14,8 @@ keywords = ["matrix", "sgemm", "dgemm"]
 
 build = "build.rs"
 
-[lib]
-bench = false
-
-[[bench]]
-name = "benchmarks"
-harness = false
-
 [dependencies]
 rawpointer = "0.1"
-
-[dev-dependencies]
-bencher = "0.1.2"
 
 [package.metadata.release]
 no-dev-version = true

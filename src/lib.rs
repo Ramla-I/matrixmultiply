@@ -47,10 +47,14 @@
 //!
 //! Stides can be negative or even zero, but for a mutable matrix elements
 //! may not alias each other.
+#![no_std]
+#![feature(alloc)]
 
 #![doc(html_root_url = "https://docs.rs/matrixmultiply/0.1/")]
 
 extern crate rawpointer;
+
+#[macro_use] extern crate alloc;
 
 #[macro_use] mod debugmacros;
 #[macro_use] mod loopmacros;
